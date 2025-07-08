@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.outlined.Favorite
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material3.Icon
@@ -26,6 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.rememberNavController
 import com.jsalin.georestaurantsapp.R
+import com.jsalin.georestaurantsapp.core.navigation.Directions
 import com.jsalin.georestaurantsapp.core.navigation.Favorites
 import com.jsalin.georestaurantsapp.core.navigation.NavigationWrapper
 import com.jsalin.georestaurantsapp.core.navigation.RestaurantList
@@ -54,10 +54,7 @@ fun RestaurantNavigationBar(modifier: Modifier = Modifier) {
         ),
     )
 
-    val shouldShowBottomBar = when {
-        currentRoute?.contains("Detail") == true -> false
-        else -> true
-    }
+    val shouldShowBottomBar = currentRoute?.contains(Directions.Detail.route) != true
 
     Scaffold(
         modifier = modifier,
