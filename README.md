@@ -1,12 +1,12 @@
 🍽️ GeoRestaurantsApp
 
-Una aplicación móvil nativa para Android que muestra restaurantes cercanos basados en la ubicación del usuario, permitiendo guardar favoritos para acceso rápido.
+Una aplicación móvil nativa para Android, que muestra restaurantes cercanos basados en la ubicación del usuario, permitiendo guardar favoritos para acceso rápido.
 
 🏗️ Arquitectura:
 La aplicación está desarrollada siguiendo los principios de Clean Architecture y el patrón MVVM.
 
 - Presentation (UI):
-Implementada con Jetpack Compose
+Implementada con Jetpack Compose.
 ViewModels para gestionar el estado y la lógica de presentación.
 Diferentes pantallas: lista de restaurantes, detalles y favoritos.
 
@@ -31,6 +31,7 @@ Mappers para convertir entre diferentes modelos de datos.
 - Room para persistencia local (favoritos)
 - Retrofit para consumo de API REST
 - Navigation Component para la navegación entre pantallas
+- Api utilizada: https://apidocs.geoapify.com
 
 
 🚀 Instrucciones de ejecución:
