@@ -10,6 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.jsalin.georestaurantsapp.presentation.home.RestaurantNavigationBar
 import com.jsalin.georestaurantsapp.presentation.permission.LocationPermission
+import com.jsalin.georestaurantsapp.ui.theme.GeoRestaurantsAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -20,12 +21,14 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            Surface(
-                modifier = Modifier.fillMaxSize(),
-                color = MaterialTheme.colorScheme.background
-            ) {
-                LocationPermission {
-                    RestaurantNavigationBar()
+            GeoRestaurantsAppTheme {
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    LocationPermission {
+                        RestaurantNavigationBar()
+                    }
                 }
             }
         }
