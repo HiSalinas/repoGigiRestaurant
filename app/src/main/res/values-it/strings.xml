@@ -46,7 +46,7 @@
 
     <!-- Permission Messages -->
     <string name="permission_location_title">Permessi di localizzazione</string>
-    <string name="permission_location_message">Questa app ha bisogno dell'accesso alla tua posizione per mostrarti i ristoranti vicini.</string>
+    <string name="permission_location_message">Questa app ha bisogno dell\'accesso alla tua posizione per mostrarti i ristoranti vicini.</string>
     <string name="permission_grant_button">Concedi permessi</string>
     <string name="gps_disabled_title">GPS disattivato</string>
     <string name="gps_disabled_message">Per trovare ristoranti vicini, attiva il GPS del tuo dispositivo.</string>
