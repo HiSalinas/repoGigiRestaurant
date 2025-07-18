@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoRestaurants</string>
+    <!-- Navigation -->
+    <string name="home_item_title">Home</string>
+    <string name="favorites_item_title">Favorites</string>
+
+    <!-- Common Actions -->
+    <string name="retry">Retry</string>
+    <string name="back">Back</string>
+    <string name="add_favorite">Add to Favorites</string>
+    <string name="remove_favorite">Remove from Favorites</string>
+
+    <!-- Screen Titles -->
+    <string name="detail_restaurant">Restaurant Details</string>
+    <string name="restaurants_nearby">Nearby Restaurants</string>
+    <string name="my_favorites">My Favorites</string>
+
+    <!-- Loading Messages -->
+    <string name="loading_default">Loading…</string>
+    <string name="loading_restaurants">Searching for nearby restaurants…</string>
+    <string name="loading_favorites">Loading your favorite restaurants…</string>
+
+    <!-- Error Messages -->
+    <string name="error_title">Oops! Something went wrong</string>
+    <string name="error_restaurant_not_found">Restaurant not found</string>
+    <string name="error_network">Connection error. Check your internet.</string>
+    <string name="error_database">Database error</string>
+    <string name="error_location_not_found">Unable to get your location</string>
+    <string name="error_location_permission_denied">Location permission denied</string>
+    <string name="error_no_restaurants_found">No nearby restaurants found</string>
+    <string name="error_unknown">Unknown error: %1$s</string>
+    <string name="error_generic">Error: %1$s</string>
+    <string name="unknown_error">Unknown error</string>
+
+    <!-- Success Messages -->
+    <string name="success_added_to_favorites">Added to favorites</string>
+    <string name="success_removed_from_favorites">Removed from favorites</string>
+    <string name="success_operation_completed">Operation completed</string>
+
+    <!-- Empty States -->
+    <string name="empty_restaurants_title">No nearby restaurants</string>
+    <string name="empty_restaurants_description">Try changing your location or adjusting filters</string>
+    <string name="empty_favorites_title">No favorite restaurants</string>
+    <string name="empty_favorites_description">Add restaurants to favorites to see them here</string>
+
+    <!-- Permission Messages -->
+    <string name="permission_location_title">Location Permissions</string>
+    <string name="permission_location_message">This app needs access to your location to show nearby restaurants.</string>
+    <string name="permission_grant_button">Grant Permissions</string>
+    <string name="gps_disabled_title">GPS Disabled</string>
+    <string name="gps_disabled_message">To find nearby restaurants, please enable GPS on your device.</string>
+    <string name="gps_enable_button">Enable GPS</string>
+</resources>

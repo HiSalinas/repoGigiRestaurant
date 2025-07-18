@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoRestaurants</string>
+    <!-- Navigation -->
+    <string name="home_item_title">Home</string>
+    <string name="favorites_item_title">Preferiti</string>
+
+    <!-- Common Actions -->
+    <string name="retry">Riprova</string>
+    <string name="back">Indietro</string>
+    <string name="add_favorite">Aggiungi ai Preferiti</string>
+    <string name="remove_favorite">Rimuovi dai Preferiti</string>
+
+    <!-- Screen Titles -->
+    <string name="detail_restaurant">Dettagli del Ristorante</string>
+    <string name="restaurants_nearby">Ristoranti Vicini</string>
+    <string name="my_favorites">I Miei Preferiti</string>
+
+    <!-- Loading Messages -->
+    <string name="loading_default">Caricamento…</string>
+    <string name="loading_restaurants">Ricerca dei ristoranti vicini…</string>
+    <string name="loading_favorites">Caricamento dei tuoi ristoranti preferiti…</string>
+
+    <!-- Error Messages -->
+    <string name="error_title">Ops! Qualcosa è andato storto</string>
+    <string name="error_restaurant_not_found">Ristorante non trovato</string>
+    <string name="error_network">Errore di connessione. Controlla la tua connessione internet.</string>
+    <string name="error_database">Errore del database</string>
+    <string name="error_location_not_found">Impossibile ottenere la tua posizione</string>
+    <string name="error_location_permission_denied">Permessi di localizzazione negati</string>
+    <string name="error_no_restaurants_found">Nessun ristorante trovato nelle vicinanze</string>
+    <string name="error_unknown">Errore sconosciuto: %1$s</string>
+    <string name="error_generic">Errore: %1$s</string>
+    <string name="unknown_error">Errore sconosciuto</string>
+
+    <!-- Success Messages -->
+    <string name="success_added_to_favorites">Aggiunto ai preferiti</string>
+    <string name="success_removed_from_favorites">Rimosso dai preferiti</string>
+    <string name="success_operation_completed">Operazione completata</string>
+
+    <!-- Empty States -->
+    <string name="empty_restaurants_title">Nessun ristorante nelle vicinanze</string>
+    <string name="empty_restaurants_description">Prova a cambiare posizione o a regolare i filtri</string>
+    <string name="empty_favorites_title">Nessun ristorante preferito</string>
+    <string name="empty_favorites_description">Aggiungi ristoranti ai preferiti per vederli qui</string>
+
+    <!-- Permission Messages -->
+    <string name="permission_location_title">Permessi di localizzazione</string>
+    <string name="permission_location_message">Questa app ha bisogno dell\'accesso alla tua posizione per mostrarti i ristoranti vicini.</string>
+    <string name="permission_grant_button">Concedi permessi</string>
+    <string name="gps_disabled_title">GPS disattivato</string>
+    <string name="gps_disabled_message">Per trovare ristoranti vicini, attiva il GPS del tuo dispositivo.</string>
+    <string name="gps_enable_button">Attiva GPS</string>
+</resources>
